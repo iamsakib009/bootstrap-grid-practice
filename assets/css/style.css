@@ -1,0 +1,89 @@
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  scroll-padding-top: 65px;
+}
+html::-webkit-scrollbar {
+  width: 10px;
+}
+html::-webkit-scrollbar-track {
+  background: #fff;
+}
+html::-webkit-scrollbar-thumb {
+  background: #15a4fa;
+  border-radius: 50px;
+}
+::-moz-selection {
+  color: #fff;
+  background: #15a4fa;
+}
+::selection {
+  color: #fff;
+  background: #15a4fa;
+}
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+/* Header */
+.col-xs-12 {
+  height: 75;
+  background-color: green;
+  text-align: center;
+  color: white;
+  border: 2px solid black;
+}
+.col-xs-8 {
+  height: 50px;
+  background-color: goldenrod;
+  text-align: center;
+  color: black;
+  border: 2px solid white;
+}
+.col-xs-6 {
+  height: 50px;
+  background-color: whitesmoke;
+  text-align: center;
+  color: black;
+  border: 2px solid black;
+}
+.col-xs-4 {
+  height: 50px;
+  background-color: lightgoldenrodyellow;
+  text-align: center;
+  color: black;
+  border: 2px solid white;
+}
+.footer .col-sm-4 {
+  height: 25px;
+  background-color: yellowgreen;
+  text-align: center;
+  color: black;
+  border: 2px solid white;
+}
+.col-sm-4 {
+  height: 25px;
+  background-color: white;
+  text-align: center;
+  color: black;
+  border: 2px solid white;
+}
+.col-sm-8 {
+  height: 25px;
+  background-color: lime;
+  text-align: center;
+  color: black;
+  border: 2px solid white;
+}
+.gap {
+  margin: 2rem;
+}
+body {
+  background-color: #eee;
+}
